@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f9;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main {
+  width: 80vw;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sup {
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 0.5em;
+}
+
+.titulo {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 2px solid #3498db;
+}
+
+.lab {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.box {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 0.5em;
+  width: calc(30vw - 40px);
+  height: auto;
+  flex: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  background-color: #3498db;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 100px;
+  background-color: #fcfcfa;
+  overflow: hidden;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  outline: none;
+}
+
+footer {
+  text-align: center;  
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pie {
+  font-family: 'Alegreya', serif;
+  font-size: 1em;
+  color: silver;
+  padding: 1em;
+  margin: 0;
+}
